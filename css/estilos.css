@@ -1,0 +1,28 @@
+html,body{
+	height:100%;
+}
+body{
+	background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+	
+}
+h1{
+	color:orange;
+	font-family: 'Indie Flower', cursive;
+	letter-spacing:0.1em;
+	text-align:center;
+	text-shadow:0 0 0.5em #fff;
+}
+.galeria{
+	
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter:grayscale(1);
+}
+
+.galeria div:hover{
+	filter:grayscale(0);
+}
